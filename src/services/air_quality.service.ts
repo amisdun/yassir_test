@@ -37,7 +37,7 @@ export class AirQualityService {
 
     try {
       const { data } = await this.httpService.axiosRef({
-        url: `${process.env.AIR_QUALITY_BASE_URL}${CONSTANTS.NEAREST_CITY}?${searchParams}`,
+        url: `${process.env.AIR_QUALITY_BASE_URL}nearest_city?${searchParams}`,
         method: 'GET',
       });
 
