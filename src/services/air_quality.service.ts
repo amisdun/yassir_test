@@ -6,7 +6,6 @@ import {
 import { AxiosResponse } from 'axios';
 import { HttpService } from '@nestjs/axios';
 import { AirQuality } from '../schemas/air_quality.schema';
-import { CONSTANTS } from '../utils/constant';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 
